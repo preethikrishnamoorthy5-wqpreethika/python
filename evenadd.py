@@ -6,3 +6,4 @@ for i in a:
     digits=int(i)
     if digits%2==0:
         sum*=digits
+print(sum)
