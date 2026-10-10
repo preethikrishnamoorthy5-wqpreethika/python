@@ -1,0 +1,11 @@
+a=int(input())
+n=str(a)
+sum=0
+for i in n:
+    dig=int(i)
+    if dig%2==0:
+        dig*=2
+    else:
+        dig+=3
+    sum+=dig
+print(sum)
