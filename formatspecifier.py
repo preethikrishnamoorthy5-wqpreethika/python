@@ -1,0 +1,6 @@
+a=input()
+b=input()
+print("Name:{0} |Correct ward:{1}".format(a,b))
+print("Patient name:",a ,"|Correct ward:",b)
+a=float(input())
+print("${0:.2f}".format(a))
