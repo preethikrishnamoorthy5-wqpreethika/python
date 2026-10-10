@@ -1,0 +1,12 @@
+n=int(input())
+n=str(n)
+evencount=0
+oddcount=0
+for i in n:
+    digits=int(i)
+    if digits%2==0:
+        evencount+=1
+    else:
+        oddcount+=1
+print(f"Even digits:{evencount}")
+print(f"Odd digits:{oddcount}")
