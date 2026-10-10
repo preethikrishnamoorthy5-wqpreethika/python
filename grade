@@ -1,0 +1,27 @@
+a=input("Enter student name: ")
+b=int(input("Enter marks in python: "))
+c=int(input("Enter marks in Maths: "))
+d=int(input("Enter marks in English: "))
+if b>0 and b<=100 and c>0 and c<=100 and d>0 and d<=100:
+    if b<40 or c<40 or d<40:
+        print("Fail")
+    else:
+        sum=b+c+d 
+        ave=sum/3
+        print(f"ave:{ave:.2f}")
+        if ave>90 and ave<100: 
+            print("Outstanding")
+        elif ave>75 and ave<89:
+            print("Distinction")
+        elif ave>60 and ave<74:
+            print("First class")
+        elif ave>50 and ave<59:
+            print("Second class")
+        else :
+            print("Pass")
+        if b==100 or c==100 or d==100:
+            print("Perfect Score in One Subject")
+        if a.startswith("P") or a.startswith("A"):
+            print("Special Recognition")
+else:
+    print("Invalid")
